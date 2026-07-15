@@ -1,0 +1,44 @@
+.input-luxury {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 0.875rem 1.25rem;
+  transition: all 0.25s ease;
+  background-color: #fcfcfd;
+  width: 100%;
+  font-size: 0.938rem;
+  color: #0b1c30;
+}
+.input-luxury::placeholder {
+  color: #94a3b8;
+}
+.input-luxury:focus {
+  border-color: #775a19;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 4px rgba(119, 90, 25, 0.06);
+  outline: none;
+}
+.input-luxury:hover:not(:focus) {
+  border-color: #cbd5e1;
+}
+.luxury-card {
+  background: #ffffff;
+  border: 1px solid rgba(198, 198, 205, 0.35);
+  box-shadow: 0 4px 24px -6px rgba(0, 0, 0, 0.03);
+  transition: box-shadow 0.3s ease;
+}
+.luxury-card:hover {
+  box-shadow: 0 8px 32px -8px rgba(0, 0, 0, 0.05);
+}
+.section-underline {
+  position: relative;
+}
+.section-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  width: 44px;
+  height: 3px;
+  background: linear-gradient(90deg, #775a19, rgba(119, 90, 25, 0.15));
+  border-radius: 4px;
+}
