@@ -378,18 +378,18 @@ export default function CheckoutPage() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-gutter px-gutter max-w-container-max mx-auto">
           <div className="space-y-4">
             <span className="font-headline-sm text-headline-sm text-secondary block">{APP_CONFIG.siteName}</span>
-            <p className="opacity-80">© 2024 {APP_CONFIG.siteName}. All rights reserved. Precise Luxury Gifting.</p>
+            <p className="opacity-80">© 2024 {APP_CONFIG.siteName}. جميع الحقوق محفوظة. إهداء فاخر بدقة.</p>
           </div>
           <div className="flex flex-col gap-2">
-            <Link className="text-on-primary-container/80 hover:text-secondary-fixed transition-colors" href="#">Privacy Policy</Link>
-            <Link className="text-on-primary-container/80 hover:text-secondary-fixed transition-colors" href="#">Terms of Service</Link>
+            <Link className="text-on-primary-container/80 hover:text-secondary-fixed transition-colors" href="#">سياسة الخصوصية</Link>
+            <Link className="text-on-primary-container/80 hover:text-secondary-fixed transition-colors" href="#">شروط الخدمة</Link>
           </div>
           <div className="flex flex-col gap-2">
-            <Link className="text-on-primary-container/80 hover:text-secondary-fixed transition-colors" href="#">Shipping Info</Link>
-            <Link className="text-on-primary-container/80 hover:text-secondary-fixed transition-colors" href="#">Customer Support</Link>
+            <Link className="text-on-primary-container/80 hover:text-secondary-fixed transition-colors" href="#">معلومات الشحن</Link>
+            <Link className="text-on-primary-container/80 hover:text-secondary-fixed transition-colors" href="#">دعم العملاء</Link>
           </div>
           <div className="flex flex-col gap-2">
-            <Link className="text-on-primary-container/80 hover:text-secondary-fixed transition-colors" href="#">Our Boutiques</Link>
+            <Link className="text-on-primary-container/80 hover:text-secondary-fixed transition-colors" href="#">متاجرنا</Link>
           </div>
         </div>
       </footer>
