@@ -41,9 +41,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# uploaded product images
-public/product-images/*
-!public/product-images/.gitkeep
 
 # uploaded category images
 public/category-images/*
